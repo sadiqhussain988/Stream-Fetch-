@@ -9,7 +9,7 @@ import {
 import { FiMail } from "react-icons/fi";
 import { GoLocation } from "react-icons/go";
 import "aos/dist/aos.css";
-import logo from "../../assets/codelogo.png"
+import logo from "../../assets/sfplogo.png"
 const Footer = () => {
   useEffect(() => {
     if (typeof window !== "undefined") {

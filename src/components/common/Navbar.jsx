@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import logo from "../../assets/codelogo.png"
+import logo from "../../assets/sfplogo.png"
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -19,8 +19,8 @@ const Navbar = () => {
               </a>
             </div>
             <div className="flex flex-col group-hover:translate-x-[120%] transition-all ease-in justify-center duration-400">
-              <h1 className="text-white text-4xl md:text-[4rem] leading-none">C</h1>
-              <div className="relative ml-[0.5rem] md:ml-[0.9rem] font-semibold -mt-7 sm:-mt-9">
+              <h1 className="text-amber-400 text-4xl md:text-[4rem] leading-none">SFP</h1>
+              {/* <div className="relative ml-[0.5rem] md:ml-[0.9rem] font-semibold -mt-7 sm:-mt-9">
                 <svg 
                   stroke="currentColor" 
                   fill="currentColor" 
@@ -33,8 +33,8 @@ const Navbar = () => {
                 >
                   <path d="M528 448H112c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h416c8.8 0 16-7.2 16-16v-32c0-8.8-7.2-16-16-16zm64-320c-26.5 0-48 21.5-48 48 0 7.1 1.6 13.7 4.4 19.8L476 239.2c-15.4 9.2-35.3 4-44.2-11.6L350.3 85C361 76.2 368 63 368 48c0-26.5-21.5-48-48-48s-48 21.5-48 48c0 15 7 28.2 17.7 37l-81.5 142.6c-8.9 15.6-28.9 20.8-44.2 11.6l-72.3-43.4c2.7-6 4.4-12.7 4.4-19.8 0-26.5-21.5-48-48-48S0 149.5 0 176s21.5 48 48 48c2.6 0 5.2-.4 7.7-.8L128 416h384l72.3-192.8c2.5.4 5.1.8 7.7.8 26.5 0 48-21.5 48-48s-21.5-48-48-48z"></path>
                 </svg>
-                <h2 className="text-[#F69B23] mt-[7px] sm:mt-0 text-xl sm:text-4xl">T</h2>
-              </div>
+                <h2 className="text-[#F69B23] mt-[7px] sm:mt-0 text-xl sm:text-4xl">F</h2>
+              </div> */}
             </div>
           </div>
 
